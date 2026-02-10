@@ -1,0 +1,22 @@
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.exe.config
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.exe
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.pdb
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.AssemblyReference.cache
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.frmLogin.resources
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.Properties.Resources.resources
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.GenerateResource.cache
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.CoreCompileInputs.cache
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.exe
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.pdb
+D:\C# Projects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.frmMain.resources
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.exe.config
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.exe
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.pdb
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.AssemblyReference.cache
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.frmLogin.resources
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.frmMain.resources
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.Properties.Resources.resources
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.GenerateResource.cache
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.CoreCompileInputs.cache
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.exe
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.pdb

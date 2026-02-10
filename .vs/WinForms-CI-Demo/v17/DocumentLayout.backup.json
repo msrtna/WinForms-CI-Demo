@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSharpProjects\\WinForms-CI-Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\LoginService.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\LoginService.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\LoginService.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:07:48.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\ILoginService.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\ILoginService.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\ILoginService.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:02:41.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\LoginViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\LoginViewModel.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T21:00:01.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Login.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:51:09.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Login.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs [Design]",
+              "RelativeToolTip": "WinForms-CI-Demo\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:51:05.99Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
