@@ -16,7 +16,9 @@ namespace WinForms_CI_Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+
+            IAuthenticator authenticator = new Authenticator();
+            Application.Run(new frmLogin(authenticator));
         }
     }
 }

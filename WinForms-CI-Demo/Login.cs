@@ -5,15 +5,16 @@ namespace WinForms_CI_Demo
 {
     public partial class frmLogin : Form
     {
-        public frmLogin()
+        private IAuthenticator _authenticator;
+        public frmLogin(IAuthenticator authenticator)
         {
             InitializeComponent();
+            _authenticator = authenticator;
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text.Trim();
-            string password = txtPassword.Text.Trim();
-            if (username == "a" && password == "1")
+            bool result = _authenticator.Login(txtUsername.Text.Trim(), txtPassword.Text.Trim());
+            if (result)
             {
                 frmMain frm = new frmMain();
                 frm.ShowDialog();

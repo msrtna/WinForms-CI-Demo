@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authenticator.cs" />
+    <Compile Include="IAuthenticator.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
