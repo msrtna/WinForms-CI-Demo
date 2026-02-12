@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinForms_CI_Demo.Applications;
+using WinForms_CI_Demo.Domain;
 
 namespace WinForms_CI_Demo
 {
@@ -18,7 +19,8 @@ namespace WinForms_CI_Demo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            IAuthenticator authenticator = new Authenticator();
+            IUserRepository repository = new FakeUserRepository();
+            IAuthenticator authenticator = new Authenticator(repository);
             ILoginService loginService = new LoginService(authenticator);
             Application.Run(new frmLogin(loginService));
         }

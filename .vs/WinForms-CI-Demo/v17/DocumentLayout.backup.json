@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\domain\\fakeuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\domain\\fakeuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\authenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\authenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Login.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T01:05:07.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Login.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs [Design]",
+              "RelativeToolTip": "WinForms-CI-Demo\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T01:05:05.993Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Program.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Program.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Program.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T01:00:28.42Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -34,41 +80,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Program.cs",
-              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Program.cs",
-              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Program.cs",
-              "RelativeToolTip": "WinForms-CI-Demo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FakeUserRepository.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Domain\\FakeUserRepository.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Domain\\FakeUserRepository.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Domain\\FakeUserRepository.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\Domain\\FakeUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T00:25:13.726Z",
+              "WhenOpened": "2026-02-12T00:57:28.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
-              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Login.cs",
-              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
-              "RelativeToolTip": "WinForms-CI-Demo\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Authenticator.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Authenticator.cs",
+              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Authenticator.cs",
+              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Authenticator.cs",
+              "RelativeToolTip": "WinForms-CI-Demo\\Authenticator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T00:25:11.777Z",
+              "WhenOpened": "2026-02-12T00:53:36.455Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs",
-              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Login.cs",
-              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Login.cs [Design]",
-              "RelativeToolTip": "WinForms-CI-Demo\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T00:25:10.25Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

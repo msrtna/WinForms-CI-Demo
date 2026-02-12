@@ -49,6 +49,8 @@
     <Compile Include="Applications\ILoginService.cs" />
     <Compile Include="Applications\LoginService.cs" />
     <Compile Include="Authenticator.cs" />
+    <Compile Include="Domain\FakeUserRepository.cs" />
+    <Compile Include="Domain\IUserRepository.cs" />
     <Compile Include="IAuthenticator.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
