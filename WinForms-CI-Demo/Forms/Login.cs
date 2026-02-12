@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using WinForms_CI_Demo.Applications;
 
-namespace WinForms_CI_Demo
+namespace WinForms_CI_Demo.Forms
 {
     public partial class frmLogin : Form
     {

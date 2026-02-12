@@ -15,5 +15,18 @@ namespace WinForms_CI_Demo.Data
         {
             optionsBuilder.UseSqlServer(@"Server=.;Database=WinFormsCIDemo;Trusted_Connection=True;");
         }
+        public void Seed()
+        {
+            if (!Users.Any())
+            {
+                Users.Add(new User
+                {
+                    Username = "admin",
+                    Password = "123"
+                });
+
+                SaveChanges();
+            }
+        }
     }
 }

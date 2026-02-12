@@ -164,22 +164,21 @@
   <ItemGroup>
     <Compile Include="Applications\ILoginService.cs" />
     <Compile Include="Applications\LoginService.cs" />
-    <Compile Include="Authenticator.cs" />
+    <Compile Include="Authenticates\Authenticator.cs" />
     <Compile Include="Data\AppDbContext.cs" />
     <Compile Include="Data\User.cs" />
-    <Compile Include="Domain\FakeUserRepository.cs" />
-    <Compile Include="Domain\IUserRepository.cs" />
-    <Compile Include="IAuthenticator.cs" />
-    <Compile Include="Login.cs">
+    <Compile Include="Repositories\IUserRepository.cs" />
+    <Compile Include="Authenticates\IAuthenticator.cs" />
+    <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\20260212013032_InitialCreated.cs" />
@@ -189,10 +188,11 @@
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Login.resx">
+    <Compile Include="Repositories\SqlUserRepository.cs" />
+    <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

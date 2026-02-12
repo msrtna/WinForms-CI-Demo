@@ -1,4 +1,4 @@
-﻿namespace WinForms_CI_Demo
+﻿namespace WinForms_CI_Demo.Forms
 {
     partial class frmLogin
     {

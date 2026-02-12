@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinForms_CI_Demo.Domain
+namespace WinForms_CI_Demo.Repositories
 {
     public interface IUserRepository
     {

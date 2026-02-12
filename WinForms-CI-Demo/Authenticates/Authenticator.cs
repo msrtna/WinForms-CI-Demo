@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinForms_CI_Demo.Domain;
+using WinForms_CI_Demo.Repositories;
 
-namespace WinForms_CI_Demo
+namespace WinForms_CI_Demo.Authenticates
 {
     public class Authenticator : IAuthenticator
     {

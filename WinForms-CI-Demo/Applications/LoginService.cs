@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WinForms_CI_Demo.Authenticates;
 
 namespace WinForms_CI_Demo.Applications
 {

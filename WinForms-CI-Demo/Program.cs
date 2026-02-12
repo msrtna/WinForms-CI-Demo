@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinForms_CI_Demo.Applications;
-using WinForms_CI_Demo.Domain;
+using WinForms_CI_Demo.Authenticates;
+using WinForms_CI_Demo.Forms;
+using WinForms_CI_Demo.Repositories;
 
 namespace WinForms_CI_Demo
 {
@@ -19,9 +21,16 @@ namespace WinForms_CI_Demo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            IUserRepository repository = new FakeUserRepository();
+            using (var db = new Data.AppDbContext())
+            {
+                db.Database.EnsureCreated();
+                db.Seed();
+            }
+
+            IUserRepository repository = new SqlUserRepository();
             IAuthenticator authenticator = new Authenticator(repository);
             ILoginService loginService = new LoginService(authenticator);
+
             Application.Run(new frmLogin(loginService));
         }
     }
