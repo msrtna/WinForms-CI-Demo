@@ -17,8 +17,8 @@ namespace WinForms_CI_Demo.Forms
             bool result = _loginService.Login(txtUsername.Text.Trim(), txtPassword.Text.Trim());
             if (result)
             {
-                frmMain frm = new frmMain();
-                frm.ShowDialog();
+                this.DialogResult = DialogResult.OK;
+                this.Close();
             }
             else
             {

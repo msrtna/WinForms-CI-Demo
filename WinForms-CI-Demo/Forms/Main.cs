@@ -7,19 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinForms_CI_Demo.Services;
 
 namespace WinForms_CI_Demo.Forms
 {
     public partial class frmMain : Form
     {
-        public frmMain()
+        private readonly UserManagementService _userService;
+        public frmMain(UserManagementService userService)
         {
             InitializeComponent();
+            _userService = userService;
         }
 
-        private void frmMain_Load(object sender, EventArgs e)
+        private void lblUserManagement_Click(object sender, EventArgs e)
         {
-
+            frmUserManagement frm = new frmUserManagement(_userService);
+            frm.ShowDialog();
         }
     }
 }

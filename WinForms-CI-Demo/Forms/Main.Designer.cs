@@ -29,22 +29,37 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.lblUserManagement = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(269, 216);
+            this.label1.Location = new System.Drawing.Point(260, 114);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(331, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome to my project";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblUserManagement
+            // 
+            this.lblUserManagement.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblUserManagement.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblUserManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblUserManagement.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserManagement.Location = new System.Drawing.Point(333, 213);
+            this.lblUserManagement.Name = "lblUserManagement";
+            this.lblUserManagement.Size = new System.Drawing.Size(172, 43);
+            this.lblUserManagement.TabIndex = 1;
+            this.lblUserManagement.Text = "User Management";
+            this.lblUserManagement.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblUserManagement.Click += new System.EventHandler(this.lblUserManagement_Click);
             // 
             // frmMain
             // 
@@ -52,6 +67,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(849, 507);
+            this.Controls.Add(this.lblUserManagement);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -59,7 +75,6 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
-            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -68,5 +83,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblUserManagement;
     }
 }

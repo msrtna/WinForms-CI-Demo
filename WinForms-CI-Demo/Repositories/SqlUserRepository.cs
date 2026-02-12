@@ -18,5 +18,25 @@ namespace WinForms_CI_Demo.Repositories
         {
             return _context.Users.Any(auth=> auth.Username == username && auth.Password == password);
         }
+        public void Add(User user)
+        {
+            _context.Users.Add(user);
+            _context.SaveChanges();
+        }
+
+        public List<User> GetAll()
+        {
+            return _context.Users.ToList();
+        }
+
+        public void Delete(int userId)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+            if (user != null)
+            {
+                _context.Users.Remove(user);
+                _context.SaveChanges();
+            }
+        }
     }
 }

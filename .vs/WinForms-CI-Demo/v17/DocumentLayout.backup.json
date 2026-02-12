@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CSharpProjects\\WinForms-CI-Demo\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|d:\\csharpprojects\\winforms-ci-demo\\winforms-ci-demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5F67240-19C9-4262-9B00-3BB737C494DB}|WinForms-CI-Demo\\WinForms-CI-Demo.csproj|solutionrelative:winforms-ci-demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Program.cs",
-              "RelativeDocumentMoniker": "WinForms-CI-Demo\\Program.cs",
-              "ToolTip": "D:\\CSharpProjects\\WinForms-CI-Demo\\WinForms-CI-Demo\\Program.cs",
-              "RelativeToolTip": "WinForms-CI-Demo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T02:14:21.753Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"

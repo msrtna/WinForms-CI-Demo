@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinForms_CI_Demo.Applications;
 using WinForms_CI_Demo.Authenticates;
+using WinForms_CI_Demo.Data;
 using WinForms_CI_Demo.Forms;
 using WinForms_CI_Demo.Repositories;
+using WinForms_CI_Demo.Services;
 
 namespace WinForms_CI_Demo
 {
@@ -18,20 +20,26 @@ namespace WinForms_CI_Demo
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-
-            using (var db = new Data.AppDbContext())
+            using (var db = new AppDbContext())
             {
                 db.Database.EnsureCreated();
                 db.Seed();
             }
 
-            IUserRepository repository = new SqlUserRepository();
-            IAuthenticator authenticator = new Authenticator(repository);
-            ILoginService loginService = new LoginService(authenticator);
+            IUserRepository userRepo = new SqlUserRepository();
+            IAuthenticator auth = new Authenticator(userRepo);
+            ILoginService loginService = new LoginService(auth);
+            UserManagementService userService = new UserManagementService(userRepo);
 
-            Application.Run(new frmLogin(loginService));
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            frmLogin loginForm = new frmLogin(loginService);
+
+            if (loginForm.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new frmMain(userService));
+            }
         }
     }
 }

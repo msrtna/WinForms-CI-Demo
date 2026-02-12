@@ -13,8 +13,6 @@ D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.e
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.exe
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\WinForms-CI-Demo.pdb
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.AssemblyReference.cache
-D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.frmLogin.resources
-D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.frmMain.resources
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.Properties.Resources.resources
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.GenerateResource.cache
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms-CI-Demo.csproj.CoreCompileInputs.cache
@@ -101,3 +99,6 @@ D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\ru\Microsoft.Data.
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms.967571C3.Up2Date
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.Forms.frmLogin.resources
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.Forms.frmMain.resources
+D:\CSharpProjects\WinForms-CI-Demo\WinForms-CI-Demo\obj\Debug\WinForms_CI_Demo.Forms.frmUserManagement.resources
