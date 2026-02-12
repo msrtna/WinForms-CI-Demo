@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinForms_CI_Demo.Applications;
 
 namespace WinForms_CI_Demo
 {
@@ -18,7 +19,8 @@ namespace WinForms_CI_Demo
             Application.SetCompatibleTextRenderingDefault(false);
 
             IAuthenticator authenticator = new Authenticator();
-            Application.Run(new frmLogin(authenticator));
+            ILoginService loginService = new LoginService(authenticator);
+            Application.Run(new frmLogin(loginService));
         }
     }
 }

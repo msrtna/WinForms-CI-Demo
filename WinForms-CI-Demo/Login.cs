@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Windows.Forms;
+using WinForms_CI_Demo.Applications;
 
 namespace WinForms_CI_Demo
 {
     public partial class frmLogin : Form
     {
-        private IAuthenticator _authenticator;
-        public frmLogin(IAuthenticator authenticator)
+        private ILoginService _loginService;
+        public frmLogin(ILoginService loginService)
         {
             InitializeComponent();
-            _authenticator = authenticator;
+            _loginService = loginService;
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            bool result = _authenticator.Login(txtUsername.Text.Trim(), txtPassword.Text.Trim());
+            bool result = _loginService.Login(txtUsername.Text.Trim(), txtPassword.Text.Trim());
             if (result)
             {
                 frmMain frm = new frmMain();

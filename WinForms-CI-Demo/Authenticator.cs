@@ -8,11 +8,9 @@ namespace WinForms_CI_Demo
 {
     public class Authenticator : IAuthenticator
     {
-            public bool Login(string username, string password)
+        public bool Login(string username, string password)
         {
-             return username == "a" && password == "1";
+            return username == "a" && password == "1";
         }
-
-        
     }
 }
